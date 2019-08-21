@@ -66,3 +66,11 @@ body {
       font-size: 3.5rem;
       margin-top: 25%;
   }
+
+  /* RESPONSIVENESS */
+
+  @media (max-width: 650px) {
+    body.custom-background {
+      background-attachment: scroll;
+    }
+  }
