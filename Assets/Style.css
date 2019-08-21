@@ -11,7 +11,7 @@ body {
     background: #314755;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: white
 }
 
 /* NAVBAR */
@@ -73,14 +73,36 @@ body {
 
   /* SERVICES */
 
+
   #services .container{
-    width: auto;
+    width: 100%;
+    background: white;
+    
   }
 
   #services .box{
     width: 100%;
-    height: 100px;
-    background: rgb(177, 177, 177);
+    /* height: 100vh; */
+    /* background: rgb(177, 177, 177); */
+  }
+
+  #services .fas{
+    text-align: center;
+    /* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.288); */
+    color: #0099ff;
+    font-size: 5rem;
+  }
+
+  #services .card{
+    background: none;
+    /* background: #3f3f3f; */
+    border: none;
+    color: #0099ff;
+    text-align: center;
+  }
+  
+  #services .card p{
+    color: rgb(139, 139, 139);
   }
 
   /* RESPONSIVENESS */
