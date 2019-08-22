@@ -1,0 +1,114 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    background: #a5a5a5;
+    position: relative;
+    background: #314755;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: white
+}
+
+/* NAVBAR */
+
+#brandName{
+    font-size: 2rem;
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 1.5px 1.5px 3px rgb(0, 0, 0);
+    /* text-shadow: 1.5px 1.5px 3px rgb(51, 51, 51); */
+}
+
+.navbar-custom {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar-custom a {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 50, 50, .75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#navBar{
+    color: white;
+}
+
+/* Intro */
+
+#intro .wrap{
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  /* color: white; */
+  color: #0099ff;
+}
+
+#intro .container {
+    height: 100%;
+    width: auto;
+  }
+
+  #intro {
+    position: relative;
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+    background-image: url("img/emile-perron-xrVDYZRGdw4-unsplash.jpg");
+    /* Photo by Émile Perron on Unsplash */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 0 0 30px 30px;
+  }
+
+  #lead{
+      font-size: 3.5rem;
+      margin-top: 25%;
+  }
+
+  /* SERVICES */
+
+
+  #services .container{
+    width: 100%;
+    background: white;
+    
+  }
+
+  #services .box{
+    width: 100%;
+    /* height: 100vh; */
+    /* background: rgb(177, 177, 177); */
+  }
+
+  #services .fas{
+    text-align: center;
+    /* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.288); */
+    color: #0099ff;
+    font-size: 5rem;
+  }
+
+  #services .card{
+    background: none;
+    /* background: #3f3f3f; */
+    border: none;
+    color: #0099ff;
+    text-align: center;
+  }
+  
+  #services .card p{
+    color: rgb(139, 139, 139);
+  }
+
+  /* RESPONSIVENESS */
+
+  @media (max-width: 650px) {
+    #intro {
+      background-attachment: scroll;
+    }
+  }
