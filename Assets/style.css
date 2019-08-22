@@ -24,6 +24,10 @@ body {
     /* text-shadow: 1.5px 1.5px 3px rgb(51, 51, 51); */
 }
 
+.nav-item{
+  text-align: right;
+}
+
 .navbar-custom {
     color: white;
     font-size: 1.5rem;
@@ -108,6 +112,11 @@ body {
   }
 
   /* SKILLS */
+
+  #skills .row{
+    width: 100%;
+  }
+
   #skills h1{
     color: #0099ff;
     text-align: center;
@@ -116,13 +125,25 @@ body {
 
   #skills .card{
     border: none;
-    width: 70px;
+    height: 100px;
+    margin: auto;
     margin-bottom: 50px;
+    text-align: center;
   }
 
   #skills img{
-    width: 100px;
-    height: 100px;
+    /* width: 70px; */
+    display: block;
+    width: 80px;
+    margin: auto;
+  }
+
+  #jq img {
+    width: 200px;
+  }
+
+  #boot img{
+    margin-bottom: 0;
   }
 
   /* CONTACT */
