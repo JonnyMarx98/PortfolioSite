@@ -14,6 +14,12 @@ body {
     background: white
 }
 
+.subHeading{
+    color: #0099ff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 /* NAVBAR */
 
 #brandName{
@@ -44,6 +50,7 @@ body {
 #navBar{
     color: white;
 }
+
 
 /* Intro */
 
@@ -81,7 +88,7 @@ body {
   #services .container{
     width: 100%;
     background: white;
-    margin-top: 10%;
+    /* margin-top: 10%; */
   }
 
   #services .box{
@@ -117,11 +124,11 @@ body {
     width: 100%;
   }
 
-  #skills h1{
+  /* #skills h1{
     color: #0099ff;
     text-align: center;
     margin-bottom: 50px;
-  }
+  } */
 
   #skills .card{
     border: none;
