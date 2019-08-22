@@ -107,6 +107,12 @@ body {
     font-size: 1.5rem;
   }
 
+  /* CONTACT */
+  
+  #contact {
+    color: rgb(139, 139, 139);
+  }
+
   /* RESPONSIVENESS */
 
   @media (max-width: 650px) {
