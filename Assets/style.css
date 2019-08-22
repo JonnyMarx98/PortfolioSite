@@ -107,6 +107,24 @@ body {
     font-size: 1.5rem;
   }
 
+  /* SKILLS */
+  #skills h1{
+    color: #0099ff;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  #skills .card{
+    border: none;
+    width: 70px;
+    margin-bottom: 50px;
+  }
+
+  #skills img{
+    width: 100px;
+    height: 100px;
+  }
+
   /* CONTACT */
   
   #contact {
