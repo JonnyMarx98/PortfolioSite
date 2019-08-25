@@ -17,7 +17,7 @@ body {
 .subHeading{
     color: #0099ff;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .subPara {
@@ -157,6 +157,8 @@ body {
     margin-bottom: 0;
   }
 
+  /* FOOTER */
+
   /* CONTACT */
   
   #contact {
@@ -173,6 +175,14 @@ body {
 
   }
 
+  .footer_menu{
+    padding: 0;
+  }
+
+  .footer_menu-item{
+    display: inline-block;
+    padding: 10px 20px;
+  }
   @media (min-width: 1200px){
     .container {
     max-width: 1140px;
