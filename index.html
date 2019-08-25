@@ -8,7 +8,6 @@
     <meta name="keywords" content="Web Designer, Web Developer, Portfolio, Jonny Marx, SEO">
     <meta name="author" content="Jonny Marx">
 
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
@@ -22,6 +21,8 @@
     <link rel="stylesheet" href="Assets/style.css">
 
     <title>Jonny Marx</title>
+    {% include head.html %}
+    {% seo %}
 </head>
 <body>
     <!-- INTRO -->
@@ -167,6 +168,11 @@
               <div class="form-group">
                 <label for="email">Email address</label>
                 <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <!-- Name Input -->
+              <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" name="name" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
               </div>
               <!-- Message Input -->
               <div class="form-group">
